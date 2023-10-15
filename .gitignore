@@ -47,3 +47,6 @@ Thumbs.db
 *.swp
 .obj
 .sconf_temp
+
+# VSC build dir CMake
+build

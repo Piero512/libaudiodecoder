@@ -72,7 +72,7 @@ public:
     int open();
     int seek(int sampleIdx);
     int read(int size, const SAMPLE *buffer);
-    static std::vector<std::string> supportedFileExtensions();
+    std::vector<std::string> supportedFileExtensions();
 private:
     SInt64 m_headerFrames;
     ExtAudioFileRef m_audioFile;

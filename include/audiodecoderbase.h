@@ -97,7 +97,7 @@ class DllExport AudioDecoderBase
         inline int    positionInSamples() const { return m_iPositionInSamples; };
 
         /** Get a list of the filetypes supported by the decoder, by extension */
-        static std::vector<std::string> supportedFileExtensions()
+        virtual std::vector<std::string> supportedFileExtensions()
         { 
             return std::vector<std::string>();
         };
