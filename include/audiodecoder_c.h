@@ -1,5 +1,5 @@
 #pragma once
-#include "audiodecoderbase.h"
+struct AudioDecoderBase;
 #ifdef WIN32
 #define AD_API __declspec(dllexport)
 #else
